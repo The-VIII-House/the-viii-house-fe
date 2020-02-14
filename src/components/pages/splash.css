@@ -1,3 +1,7 @@
+@import '../vars.css';
+
 .Splash {
-  
+  h1 {
+    font-family: var(--title-font);
+  }
 }

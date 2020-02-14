@@ -1,6 +1,5 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const DotEnv = require('dotenv-webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 require('babel-polyfill');
 
@@ -19,7 +18,6 @@ module.exports = {
   plugins: [
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
-    new DotEnv({ systemvars: true }),
     new CopyPlugin([
       { from: 'public' },
     ])

@@ -1,0 +1,5 @@
+@import './vars.css';
+
+* {
+  font-family: var(--paragraph-font);
+}

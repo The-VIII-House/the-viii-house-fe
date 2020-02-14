@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import './app.css';
 import Splash from '../components/pages/Splash';
 
 export default function App() {
